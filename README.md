@@ -14,7 +14,7 @@ service). It comes with dependencies for testing, linting, and packaging.
 
 ### Setup a new project
 ```shell
-cookiecutter gh:mikelane/cookiecutter-python-library
+cookiecutter gh:mikelane/cookiecutter-backend-service-aws
 ```
 
 Answer the questions that cookiecutter asks you. You can accept the defaults by

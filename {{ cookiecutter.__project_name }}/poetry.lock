@@ -38,6 +38,78 @@ tests = ["attrs[tests-no-zope]", "zope.interface"]
 tests-no-zope = ["cloudpickle", "cloudpickle", "hypothesis", "hypothesis", "mypy (>=0.971,<0.990)", "mypy (>=0.971,<0.990)", "pympler", "pympler", "pytest (>=4.3.0)", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-mypy-plugins", "pytest-xdist[psutil]", "pytest-xdist[psutil]"]
 
 [[package]]
+name = "aws-cdk-asset-awscli-v1"
+version = "2.2.105"
+description = "A library that contains the AWS CLI for use in Lambda Layers"
+category = "dev"
+optional = false
+python-versions = "~=3.7"
+files = [
+    {file = "aws-cdk.asset-awscli-v1-2.2.105.tar.gz", hash = "sha256:0ac03db7b90fa44d19a536caa67915db7d453b2dc6351a5e7389a683eb48316e"},
+    {file = "aws_cdk.asset_awscli_v1-2.2.105-py3-none-any.whl", hash = "sha256:b28d7f9fe6b5a87e1ba5195870d940e9c3d15598d9c00d9b0058655a55d8a10a"},
+]
+
+[package.dependencies]
+jsii = ">=1.77.0,<2.0.0"
+publication = ">=0.0.3"
+typeguard = ">=2.13.3,<2.14.0"
+
+[[package]]
+name = "aws-cdk-asset-kubectl-v20"
+version = "2.1.1"
+description = "A library that contains kubectl for use in Lambda Layers"
+category = "dev"
+optional = false
+python-versions = "~=3.7"
+files = [
+    {file = "aws-cdk.asset-kubectl-v20-2.1.1.tar.gz", hash = "sha256:9834cdb150c5590aea4e5eba6de2a89b4c60617451181c524810c5a75154565c"},
+    {file = "aws_cdk.asset_kubectl_v20-2.1.1-py3-none-any.whl", hash = "sha256:a2fad1a5a35a94a465efe60859f91e45dacc33261fb9bbf1cf9bbc6e2f70e9d6"},
+]
+
+[package.dependencies]
+jsii = ">=1.70.0,<2.0.0"
+publication = ">=0.0.3"
+typeguard = ">=2.13.3,<2.14.0"
+
+[[package]]
+name = "aws-cdk-asset-node-proxy-agent-v5"
+version = "2.0.84"
+description = "@aws-cdk/asset-node-proxy-agent-v5"
+category = "dev"
+optional = false
+python-versions = "~=3.7"
+files = [
+    {file = "aws-cdk.asset-node-proxy-agent-v5-2.0.84.tar.gz", hash = "sha256:f3ba35037a66e050f102935adb2becdd505f6cb095d9dbabef964343901cbbda"},
+    {file = "aws_cdk.asset_node_proxy_agent_v5-2.0.84-py3-none-any.whl", hash = "sha256:317ed59b6ba47f2ee19eea8ca04bfa3d164bb82fa4930d7ec3b931dde42b164b"},
+]
+
+[package.dependencies]
+jsii = ">=1.77.0,<2.0.0"
+publication = ">=0.0.3"
+typeguard = ">=2.13.3,<2.14.0"
+
+[[package]]
+name = "aws-cdk-lib"
+version = "2.68.0"
+description = "Version 2 of the AWS Cloud Development Kit library"
+category = "dev"
+optional = false
+python-versions = "~=3.7"
+files = [
+    {file = "aws-cdk-lib-2.68.0.tar.gz", hash = "sha256:29a13f6ee795710bb4f1e8eecbc132072c7ac15ea7cfac997085e9975fbfc16c"},
+    {file = "aws_cdk_lib-2.68.0-py3-none-any.whl", hash = "sha256:5482a4347002cbc725336dc2ce8af86f5783783a02d68d3b230e6154606bb100"},
+]
+
+[package.dependencies]
+"aws-cdk.asset-awscli-v1" = ">=2.2.97,<3.0.0"
+"aws-cdk.asset-kubectl-v20" = ">=2.1.1,<3.0.0"
+"aws-cdk.asset-node-proxy-agent-v5" = ">=2.0.77,<3.0.0"
+constructs = ">=10.0.0,<11.0.0"
+jsii = ">=1.77.0,<2.0.0"
+publication = ">=0.0.3"
+typeguard = ">=2.13.3,<2.14.0"
+
+[[package]]
 name = "beartype"
 version = "0.12.0"
 description = "Unbearably fast runtime type checking in pure Python."
@@ -105,6 +177,21 @@ jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
 uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
+name = "cattrs"
+version = "22.2.0"
+description = "Composable complex class support for attrs and dataclasses."
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "cattrs-22.2.0-py3-none-any.whl", hash = "sha256:bc12b1f0d000b9f9bee83335887d532a1d3e99a833d1bf0882151c97d3e68c21"},
+    {file = "cattrs-22.2.0.tar.gz", hash = "sha256:f0eed5642399423cf656e7b66ce92cdc5b963ecafd041d1b24d136fdde7acf6d"},
+]
+
+[package.dependencies]
+attrs = ">=20"
+
+[[package]]
 name = "cfgv"
 version = "3.3.1"
 description = "Validate configuration and produce human readable error messages."
@@ -142,6 +229,23 @@ files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
 ]
+
+[[package]]
+name = "constructs"
+version = "10.1.277"
+description = "A programming model for software-defined state"
+category = "dev"
+optional = false
+python-versions = "~=3.7"
+files = [
+    {file = "constructs-10.1.277-py3-none-any.whl", hash = "sha256:60e1df7ee18080c4da1845545670b0959488ab2bb5ee7b0205cbd7b1079d1dfd"},
+    {file = "constructs-10.1.277.tar.gz", hash = "sha256:4509d37549fd4b579ab42f1d093bdf037b1e945b84ba175d18f5d36442e43be0"},
+]
+
+[package.dependencies]
+jsii = ">=1.77.0,<2.0.0"
+publication = ">=0.0.3"
+typeguard = ">=2.13.3,<2.14.0"
 
 [[package]]
 name = "coverage"
@@ -221,19 +325,19 @@ files = [
 
 [[package]]
 name = "filelock"
-version = "3.9.0"
+version = "3.9.1"
 description = "A platform independent file lock."
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "filelock-3.9.0-py3-none-any.whl", hash = "sha256:f58d535af89bb9ad5cd4df046f741f8553a418c01a7856bf0d173bbc9f6bd16d"},
-    {file = "filelock-3.9.0.tar.gz", hash = "sha256:7b319f24340b51f55a2bf7a12ac0755a9b03e718311dac567a0f4f7fabd2f5de"},
+    {file = "filelock-3.9.1-py3-none-any.whl", hash = "sha256:4427cdda14a1c68e264845142842d6de2d0fa2c15ba31571a3d9c9a1ec9d191c"},
+    {file = "filelock-3.9.1.tar.gz", hash = "sha256:e393782f76abea324dee598d2ea145b857a20df0e0ee4f80fcf35e72a341d2c7"},
 ]
 
 [package.extras]
-docs = ["furo (>=2022.12.7)", "sphinx (>=5.3)", "sphinx-autodoc-typehints (>=1.19.5)"]
-testing = ["covdefaults (>=2.2.2)", "coverage (>=7.0.1)", "pytest (>=7.2)", "pytest-cov (>=4)", "pytest-timeout (>=2.1)"]
+docs = ["furo (>=2022.12.7)", "sphinx (>=6.1.3)", "sphinx-autodoc-typehints (>=1.22,!=1.23.4)"]
+testing = ["covdefaults (>=2.3)", "coverage (>=7.2.1)", "pytest (>=7.2.2)", "pytest-cov (>=4)", "pytest-timeout (>=2.1)"]
 
 [[package]]
 name = "icontract"
@@ -256,18 +360,34 @@ dev = ["astor (==0.8.1)", "asyncstdlib (==3.9.1)", "coverage (>=4.5.1,<5)", "dea
 
 [[package]]
 name = "identify"
-version = "2.5.19"
+version = "2.5.20"
 description = "File identification library for Python"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "identify-2.5.19-py2.py3-none-any.whl", hash = "sha256:3ee3533e7f6f5023157fbebbd5687bb4b698ce6f305259e0d24b2d7d9efb72bc"},
-    {file = "identify-2.5.19.tar.gz", hash = "sha256:4102ecd051f6884449e7359e55b38ba6cd7aafb6ef27b8e2b38495a5723ea106"},
+    {file = "identify-2.5.20-py2.py3-none-any.whl", hash = "sha256:5dfef8a745ca4f2c95f27e9db74cb4c8b6d9916383988e8791f3595868f78a33"},
+    {file = "identify-2.5.20.tar.gz", hash = "sha256:c8b288552bc5f05a08aff09af2f58e6976bf8ac87beb38498a0e3d98ba64eb18"},
 ]
 
 [package.extras]
 license = ["ukkonen"]
+
+[[package]]
+name = "importlib-resources"
+version = "5.12.0"
+description = "Read resources from Python packages"
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "importlib_resources-5.12.0-py3-none-any.whl", hash = "sha256:7b1deeebbf351c7578e09bf2f63fa2ce8b5ffec296e0d349139d43cca061a81a"},
+    {file = "importlib_resources-5.12.0.tar.gz", hash = "sha256:4be82589bf5c1d7999aedf2a45159d10cb3ca4f19b2271f8792bc8e6da7b22f6"},
+]
+
+[package.extras]
+docs = ["furo", "jaraco.packaging (>=9)", "jaraco.tidelift (>=1.4)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-lint"]
+testing = ["flake8 (<5)", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.3)", "pytest-flake8", "pytest-mypy (>=0.9.1)"]
 
 [[package]]
 name = "iniconfig"
@@ -298,6 +418,27 @@ colors = ["colorama (>=0.4.3)"]
 pipfile-deprecated-finder = ["pip-shims (>=0.5.2)", "pipreqs", "requirementslib"]
 plugins = ["setuptools"]
 requirements-deprecated-finder = ["pip-api", "pipreqs"]
+
+[[package]]
+name = "jsii"
+version = "1.77.0"
+description = "Python client for jsii runtime"
+category = "dev"
+optional = false
+python-versions = "~=3.7"
+files = [
+    {file = "jsii-1.77.0-py3-none-any.whl", hash = "sha256:553e04a20b8fb9927d93d8b5e96f984f514c5acc4b06bd63b4e7130228d0c7fc"},
+    {file = "jsii-1.77.0.tar.gz", hash = "sha256:28f070f3bce79e9c2d822607a960fe927e5179cf99416c94c39fb41581250854"},
+]
+
+[package.dependencies]
+attrs = ">=21.2,<23.0"
+cattrs = ">=1.8,<22.3"
+importlib-resources = ">=5.2.0"
+publication = ">=0.0.3"
+python-dateutil = "*"
+typeguard = ">=2.13.3,<2.14.0"
+typing-extensions = ">=3.7,<5.0"
 
 [[package]]
 name = "mypy"
@@ -398,14 +539,14 @@ files = [
 
 [[package]]
 name = "platformdirs"
-version = "3.1.0"
+version = "3.1.1"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "platformdirs-3.1.0-py3-none-any.whl", hash = "sha256:13b08a53ed71021350c9e300d4ea8668438fb0046ab3937ac9a29913a1a1350a"},
-    {file = "platformdirs-3.1.0.tar.gz", hash = "sha256:accc3665857288317f32c7bebb5a8e482ba717b474f3fc1d18ca7f9214be0cef"},
+    {file = "platformdirs-3.1.1-py3-none-any.whl", hash = "sha256:e5986afb596e4bb5bde29a79ac9061aa955b94fca2399b7aaac4090860920dd8"},
+    {file = "platformdirs-3.1.1.tar.gz", hash = "sha256:024996549ee88ec1a9aa99ff7f8fc819bb59e2c3477b410d90a16d32d6e707aa"},
 ]
 
 [package.extras]
@@ -448,6 +589,18 @@ pyyaml = ">=5.1"
 virtualenv = ">=20.10.0"
 
 [[package]]
+name = "publication"
+version = "0.0.3"
+description = "Publication helps you maintain public-api-friendly modules by preventing unintentional access to private implementation details via introspection."
+category = "dev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "publication-0.0.3-py2.py3-none-any.whl", hash = "sha256:0248885351febc11d8a1098d5c8e3ab2dabcf3e8c0c96db1e17ecd12b53afbe6"},
+    {file = "publication-0.0.3.tar.gz", hash = "sha256:68416a0de76dddcdd2930d1c8ef853a743cc96c82416c4e4d3b5d901c6276dc4"},
+]
+
+[[package]]
 name = "pytest"
 version = "7.2.2"
 description = "pytest: simple powerful testing with Python"
@@ -487,6 +640,21 @@ pytest = ">=4.6"
 
 [package.extras]
 testing = ["fields", "hunter", "process-tests", "pytest-xdist", "six", "virtualenv"]
+
+[[package]]
+name = "python-dateutil"
+version = "2.8.2"
+description = "Extensions to the standard Python datetime module"
+category = "dev"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+files = [
+    {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
+    {file = "python_dateutil-2.8.2-py2.py3-none-any.whl", hash = "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"},
+]
+
+[package.dependencies]
+six = ">=1.5"
 
 [[package]]
 name = "pyyaml"
@@ -540,29 +708,29 @@ files = [
 
 [[package]]
 name = "ruff"
-version = "0.0.254"
+version = "0.0.255"
 description = "An extremely fast Python linter, written in Rust."
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "ruff-0.0.254-py3-none-macosx_10_7_x86_64.whl", hash = "sha256:dd58c500d039fb381af8d861ef456c3e94fd6855c3d267d6c6718c9a9fe07be0"},
-    {file = "ruff-0.0.254-py3-none-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl", hash = "sha256:688379050ae05394a6f9f9c8471587fd5dcf22149bd4304a4ede233cc4ef89a1"},
-    {file = "ruff-0.0.254-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ac1429be6d8bd3db0bf5becac3a38bd56f8421447790c50599cd90fd53417ec4"},
-    {file = "ruff-0.0.254-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:059a380c08e849b6f312479b18cc63bba2808cff749ad71555f61dd930e3c9a2"},
-    {file = "ruff-0.0.254-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:b3f15d5d033fd3dcb85d982d6828ddab94134686fac2c02c13a8822aa03e1321"},
-    {file = "ruff-0.0.254-py3-none-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:8deba44fd563361c488dedec90dc330763ee0c01ba54e17df54ef5820079e7e0"},
-    {file = "ruff-0.0.254-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:ef20bf798ffe634090ad3dc2e8aa6a055f08c448810a2f800ab716cc18b80107"},
-    {file = "ruff-0.0.254-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:0deb1d7226ea9da9b18881736d2d96accfa7f328c67b7410478cc064ad1fa6aa"},
-    {file = "ruff-0.0.254-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:27d39d697fdd7df1f2a32c1063756ee269ad8d5345c471ee3ca450636d56e8c6"},
-    {file = "ruff-0.0.254-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:2fc21d060a3197ac463596a97d9b5db2d429395938b270ded61dd60f0e57eb21"},
-    {file = "ruff-0.0.254-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:f70dc93bc9db15cccf2ed2a831938919e3e630993eeea6aba5c84bc274237885"},
-    {file = "ruff-0.0.254-py3-none-musllinux_1_2_i686.whl", hash = "sha256:09c764bc2bd80c974f7ce1f73a46092c286085355a5711126af351b9ae4bea0c"},
-    {file = "ruff-0.0.254-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:d4385cdd30153b7aa1d8f75dfd1ae30d49c918ead7de07e69b7eadf0d5538a1f"},
-    {file = "ruff-0.0.254-py3-none-win32.whl", hash = "sha256:c38291bda4c7b40b659e8952167f386e86ec29053ad2f733968ff1d78b4c7e15"},
-    {file = "ruff-0.0.254-py3-none-win_amd64.whl", hash = "sha256:e15742df0f9a3615fbdc1ee9a243467e97e75bf88f86d363eee1ed42cedab1ec"},
-    {file = "ruff-0.0.254-py3-none-win_arm64.whl", hash = "sha256:b435afc4d65591399eaf4b2af86e441a71563a2091c386cadf33eaa11064dc09"},
-    {file = "ruff-0.0.254.tar.gz", hash = "sha256:0eb66c9520151d3bd950ea43b3a088618a8e4e10a5014a72687881e6f3606312"},
+    {file = "ruff-0.0.255-py3-none-macosx_10_7_x86_64.whl", hash = "sha256:b2d71fb6a7e50501a2473864acffc85dee6b750c25db198f7e71fe1dbbff1aad"},
+    {file = "ruff-0.0.255-py3-none-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl", hash = "sha256:6c97d746861a6010f941179e84bba9feb8a871815667471d9ed6beb98d45c252"},
+    {file = "ruff-0.0.255-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9a7fa60085079b91a298b963361be9b1b1c724582af6c84be954cbabdbd9309a"},
+    {file = "ruff-0.0.255-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:c089f7141496334ab5a127b54ce55e41f0d6714e68a4453a1e09d2204cdea8c3"},
+    {file = "ruff-0.0.255-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:0423908caa7d437a416b853214565b9c33bbd1106c4f88147982216dddcbbd96"},
+    {file = "ruff-0.0.255-py3-none-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:981493e92547cacbb8e0874904ec049fe744507ee890dc8736caf89a8864f9a7"},
+    {file = "ruff-0.0.255-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:59d5193d2aedb35db180824462b374dbcfc306b2e76076245088afa6e5837df2"},
+    {file = "ruff-0.0.255-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:dd5e00733c9d160c8a34a22e62b390da9d1e9f326676402421cb8c1236beefc3"},
+    {file = "ruff-0.0.255-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:694418cf41838bd19c6229e4e1b2d04505b1e6b86fe3ab81165484fc96d36f01"},
+    {file = "ruff-0.0.255-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:5d0408985c9777369daebb5d3340a99e9f7294bdd7120642239261508185cf89"},
+    {file = "ruff-0.0.255-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:abd6376ef9d12f370d95a8c7c98682fbb9bfedfba59f40e84a816fef8ddcb8de"},
+    {file = "ruff-0.0.255-py3-none-musllinux_1_2_i686.whl", hash = "sha256:f9b1a5df0bc09193cbef58a6f78e4a9a0b058a4f9733c0442866d078006d1bb9"},
+    {file = "ruff-0.0.255-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:6a25c5f4ff087445b2e1bbcb9963f2ae7c868d65e4a8d5f84c36c12f71571179"},
+    {file = "ruff-0.0.255-py3-none-win32.whl", hash = "sha256:1ff87a8310354f9f1a099625e54a27fdd6756d9cd2a40b45922f2e943daf982d"},
+    {file = "ruff-0.0.255-py3-none-win_amd64.whl", hash = "sha256:f3d8416be618f023f93ec4fd6ee3048585ef85dba9563b2a7e38fc7e5131d5b1"},
+    {file = "ruff-0.0.255-py3-none-win_arm64.whl", hash = "sha256:8ba124819624145d7b6b53add40c367c44318893215ffc1bfe3d72e0225a1c9c"},
+    {file = "ruff-0.0.255.tar.gz", hash = "sha256:f9eb1d3b2eecbeedae419fa494c4e2a5e4484baf93a1ce0f81eddb005e1919c5"},
 ]
 
 [[package]]
@@ -595,6 +763,22 @@ files = [
 ]
 
 [[package]]
+name = "typeguard"
+version = "2.13.3"
+description = "Run-time type checker for Python"
+category = "dev"
+optional = false
+python-versions = ">=3.5.3"
+files = [
+    {file = "typeguard-2.13.3-py3-none-any.whl", hash = "sha256:5e3e3be01e887e7eafae5af63d1f36c849aaa94e3a0112097312aabfa16284f1"},
+    {file = "typeguard-2.13.3.tar.gz", hash = "sha256:00edaa8da3a133674796cf5ea87d9f4b4c367d77476e185e80251cc13dfbb8c4"},
+]
+
+[package.extras]
+doc = ["sphinx-autodoc-typehints (>=1.2.0)", "sphinx-rtd-theme"]
+test = ["mypy", "pytest", "typing-extensions"]
+
+[[package]]
 name = "typing-extensions"
 version = "4.5.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -608,14 +792,14 @@ files = [
 
 [[package]]
 name = "virtualenv"
-version = "20.20.0"
+version = "20.21.0"
 description = "Virtual Python Environment builder"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "virtualenv-20.20.0-py3-none-any.whl", hash = "sha256:3c22fa5a7c7aa106ced59934d2c20a2ecb7f49b4130b8bf444178a16b880fa45"},
-    {file = "virtualenv-20.20.0.tar.gz", hash = "sha256:a8a4b8ca1e28f864b7514a253f98c1d62b64e31e77325ba279248c65fb4fcef4"},
+    {file = "virtualenv-20.21.0-py3-none-any.whl", hash = "sha256:31712f8f2a17bd06234fa97fdf19609e789dd4e3e4bf108c3da71d710651adbc"},
+    {file = "virtualenv-20.21.0.tar.gz", hash = "sha256:f50e3e60f990a0757c9b68333c9fdaa72d7188caa417f96af9e52407831a3b68"},
 ]
 
 [package.dependencies]
@@ -630,4 +814,4 @@ test = ["covdefaults (>=2.2.2)", "coverage (>=7.1)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "e732e9a74da14db14cff314eef4d2df5d8c717c89d68dc81e1fc4d1e94b0bc42"
+content-hash = "02a62732a38ddbc7c0b7d75f71310d5beef55624e1eb674b371693e817f9618d"

@@ -1,14 +1,13 @@
 [tool.poetry]
-name = "Cookiecutter Python Library"
+name = "Cookiecutter Backend Service on AWS"
 version = "0.1.0"
-description = "This is a cookiecutter template for a python library."
+description = "This is a cookiecutter template for a backend service hosted on AWS"
 authors = ["Mike Lane <mikelane@gmail.com>"]
 readme = "README.md"
-packages = [{include = "cookiecutter-python-library"}]
+packages = [{include = "cookiecutter-backend-service-aws"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-gitpython = "^3.1.31"
 
 [tool.black]
 line-length = 120

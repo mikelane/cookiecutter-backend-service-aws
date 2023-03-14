@@ -1,10 +1,14 @@
-# Cookiecutter Modern Python Library Template
+# Cookiecutter Backend Service with AWS and Python
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
-This is a cookiecutter template for a modern Python library. It is intended to 
-be used as a starting point for new Python libraries rather than for back end 
-services (though, you can certainly use this template as a base for a backend
-service). It comes with dependencies for testing, linting, and packaging.
+This is a cookiecutter template for a backend web service which runs on AWS.
+The service itself is defined with AWS CDK and it uses Python throughout
+(including in the AWS CDK infrastructure code). This is intended to be used in 
+place of running `npx cdk init --app=sample-app --language=python`. The cdk
+init script generates a python project, yes, but it does not use poetry or 
+modern linting. This template comes with dependencies for testing, linting, and 
+code quality checks.
 
 ## Usage
 ### Pre-Requisites

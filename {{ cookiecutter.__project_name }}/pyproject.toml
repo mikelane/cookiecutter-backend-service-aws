@@ -7,28 +7,28 @@ readme = "README.md"
 packages = [{include = "{{cookiecutter.__package_name}}"}]
 
 [tool.poetry.dependencies]
-beartype = "^0.12.0"
+beartype = "^0.14.0"
 icontract = "^2.6.2"
 python = "^3.11"
 
 
 [tool.poetry.group.test.dependencies]
-pytest = "^7.2.2"
+pytest = "^7.3.1"
 pytest-cov = "^4.0.0"
 
 
 [tool.poetry.group.lint.dependencies]
-mypy = "^1.1.1"
-black = "^23.1.0"
+mypy = "^1.2.0"
+black = "^23.3.0"
 isort = "^5.12.0"
-pre-commit = "^3.2.0"
-ruff = "^0.0.256"
+pre-commit = "^3.3.1"
+ruff = "^0.0.265"
 
 
 
 [tool.poetry.group.infrastructure.dependencies]
-aws-cdk-lib = "^2.69.0"
-constructs = "^10.1.285"
+aws-cdk-lib = "^2.78.0"
+constructs = "^10.2.17"
 
 [tool.pytest.ini_options]
 minversion = "7.2"

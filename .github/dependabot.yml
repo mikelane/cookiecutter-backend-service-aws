@@ -1,5 +1,9 @@
 version: 2
 updates:
+  - package-ecosystem: "github-actions"
+    directory: "/.github/workflows"
+    schedule:
+      interval: "daily"
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
@@ -8,3 +12,4 @@ updates:
     directory: "/{{ cookiecutter.__project_name }}"
     schedule:
       interval: "daily"
+

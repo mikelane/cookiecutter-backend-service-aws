@@ -28,7 +28,7 @@ ruff = "^0.0.267"
 
 [tool.poetry.group.infrastructure.dependencies]
 aws-cdk-lib = "^2.79.1"
-constructs = "^10.2.26"
+constructs = "^10.2.27"
 
 [tool.pytest.ini_options]
 minversion = "7.2"

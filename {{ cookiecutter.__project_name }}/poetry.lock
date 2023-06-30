@@ -220,13 +220,13 @@ files = [
 
 [[package]]
 name = "constructs"
-version = "10.2.63"
+version = "10.2.64"
 description = "A programming model for software-defined state"
 optional = false
 python-versions = "~=3.7"
 files = [
-    {file = "constructs-10.2.63-py3-none-any.whl", hash = "sha256:06dfb7b7e72d401b562c420ee42497cb3cd49e794163408597f673a400849fb1"},
-    {file = "constructs-10.2.63.tar.gz", hash = "sha256:ffd32216a81c1c15bbf8fcd4c0f28f095a221b3713b7f49f6b39dcef11912311"},
+    {file = "constructs-10.2.64-py3-none-any.whl", hash = "sha256:9b042f865323375b4c83683b7ffc9d92cc5bf846b985dbe611d2992bfcf80108"},
+    {file = "constructs-10.2.64.tar.gz", hash = "sha256:e9076dcf1661329ced384b14313b4f86370c0ba3d658cd39b2472833f02974ff"},
 ]
 
 [package.dependencies]
@@ -772,4 +772,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.3)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "3fa477db1ea132f254d9cd55dc5b870ceb92325814bdc8c1abcf5ddc5ecc1819"
+content-hash = "94a2679ab94bacd33bf2ca781a660783500e6adafb1866fdd994c41054622eab"

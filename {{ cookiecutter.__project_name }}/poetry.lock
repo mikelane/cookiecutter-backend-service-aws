@@ -68,38 +68,38 @@ publication = ">=0.0.3"
 typeguard = ">=2.13.3,<2.14.0"
 
 [[package]]
-name = "aws-cdk-asset-node-proxy-agent-v5"
-version = "2.0.166"
-description = "@aws-cdk/asset-node-proxy-agent-v5"
+name = "aws-cdk-asset-node-proxy-agent-v6"
+version = "2.0.1"
+description = "@aws-cdk/asset-node-proxy-agent-v6"
 optional = false
 python-versions = "~=3.7"
 files = [
-    {file = "aws-cdk.asset-node-proxy-agent-v5-2.0.166.tar.gz", hash = "sha256:73d4a4f4bdeb3019779137e4b18d7c5efc8353dff673508bd8c584569ea18db6"},
-    {file = "aws_cdk.asset_node_proxy_agent_v5-2.0.166-py3-none-any.whl", hash = "sha256:d71d80710734c47f7114e3e51843c4a8ebae3bbe5032a5af40ca56ca611c0cfe"},
+    {file = "aws-cdk.asset-node-proxy-agent-v6-2.0.1.tar.gz", hash = "sha256:42cdbc1de2ed3f845e3eb883a72f58fc7e5554c2e0b6fcdb366c159778dce74d"},
+    {file = "aws_cdk.asset_node_proxy_agent_v6-2.0.1-py3-none-any.whl", hash = "sha256:e442673d4f93137ab165b75386761b1d46eea25fc5015e5145ae3afa9da06b6e"},
 ]
 
 [package.dependencies]
-jsii = ">=1.85.0,<2.0.0"
+jsii = ">=1.86.1,<2.0.0"
 publication = ">=0.0.3"
 typeguard = ">=2.13.3,<2.14.0"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.90.0"
+version = "2.92.0"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.7"
 files = [
-    {file = "aws-cdk-lib-2.90.0.tar.gz", hash = "sha256:d99e304f96f1b04c41922cfa2fc98c1cdd7c88e45c6ebb980ecfc367cdc77e87"},
-    {file = "aws_cdk_lib-2.90.0-py3-none-any.whl", hash = "sha256:ef481a40c3ece38aeaf15706ecbfeea19860b8a7b789ea7b28056a9f456c65d1"},
+    {file = "aws-cdk-lib-2.92.0.tar.gz", hash = "sha256:08fa326cb1bb9e460e96d2c4da838445d625e827e9d0b5511a3c730743e7694e"},
+    {file = "aws_cdk_lib-2.92.0-py3-none-any.whl", hash = "sha256:b627d30ec19cf4aacb7b1a4857254c4acd52c346d2e078a3873b97cf773ad962"},
 ]
 
 [package.dependencies]
 "aws-cdk.asset-awscli-v1" = ">=2.2.200,<3.0.0"
 "aws-cdk.asset-kubectl-v20" = ">=2.1.2,<3.0.0"
-"aws-cdk.asset-node-proxy-agent-v5" = ">=2.0.166,<3.0.0"
+"aws-cdk.asset-node-proxy-agent-v6" = ">=2.0.1,<3.0.0"
 constructs = ">=10.0.0,<11.0.0"
-jsii = ">=1.86.0,<2.0.0"
+jsii = ">=1.87.0,<2.0.0"
 publication = ">=0.0.3"
 typeguard = ">=2.13.3,<2.14.0"
 
@@ -397,13 +397,13 @@ requirements-deprecated-finder = ["pip-api", "pipreqs"]
 
 [[package]]
 name = "jsii"
-version = "1.86.1"
+version = "1.87.0"
 description = "Python client for jsii runtime"
 optional = false
 python-versions = "~=3.7"
 files = [
-    {file = "jsii-1.86.1-py3-none-any.whl", hash = "sha256:32eb46ed4c9a35bc92b892ef049ed1996f13be38ffef964d607e8fe930471b3e"},
-    {file = "jsii-1.86.1.tar.gz", hash = "sha256:44f9a820eea92c9508693f72d3129b5a080421c949c32303f4f7b2cc98a81f59"},
+    {file = "jsii-1.87.0-py3-none-any.whl", hash = "sha256:4b7c1331e950af10ba7b71d1c9d2e634b17716b3d1b2bf61e0382ff524d8aafb"},
+    {file = "jsii-1.87.0.tar.gz", hash = "sha256:ba6860c827551901a8c43c7b09a9bb901d5f1231fc4693f2f4bf87b3db200064"},
 ]
 
 [package.dependencies]
@@ -764,4 +764,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.3)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9690494cf0f1dedb0cf9923cc988d8bb70e86403606042022b01e3b4e672c947"
+content-hash = "19645cda9c8ff733f16a11cba81759d40d78e75d32f6b296ac05534aaf5da382"

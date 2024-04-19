@@ -105,13 +105,13 @@ typeguard = ">=2.13.3,<2.14.0"
 
 [[package]]
 name = "beartype"
-version = "0.18.3"
+version = "0.18.4"
 description = "Unbearably fast runtime type checking in pure Python."
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "beartype-0.18.3-py3-none-any.whl", hash = "sha256:0131717230b04a7f1994422edaf237735febc90c0c98bd0094ce69e0a6706fff"},
-    {file = "beartype-0.18.3.tar.gz", hash = "sha256:04853d78493f3c84b03956f1fa0c1e5b84c5332a760559ddc8f2cf6141ddf791"},
+    {file = "beartype-0.18.4-py3-none-any.whl", hash = "sha256:eb60862f1bc8ab0920e3961615adf7891c21586533368ab62a5aab4f3f669859"},
+    {file = "beartype-0.18.4.tar.gz", hash = "sha256:49857bbad7294d729a82be98496a3d5a67907058d17398af75b056acee46e820"},
 ]
 
 [package.extras]
@@ -767,4 +767,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.3)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "82f8604b4ce28c8f31404e89ff0cdc2f69a77e1272350476c2ac57578488aa8a"
+content-hash = "374d946f7510d8bdf2de56129022a63f440f96d6072fbb009902693830219aba"

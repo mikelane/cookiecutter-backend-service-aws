@@ -339,13 +339,13 @@ testing = ["covdefaults (>=2.3)", "coverage (>=7.2.3)", "diff-cover (>=7.5)", "p
 
 [[package]]
 name = "icontract"
-version = "2.7.0"
+version = "2.7.1"
 description = "Provide design-by-contract with informative violation messages."
 optional = false
 python-versions = "*"
 files = [
-    {file = "icontract-2.7.0-py3-none-any.whl", hash = "sha256:1284ad1ab2d8729378754b9a2cfca99d265659e7a3d33b5b7ce3409434484013"},
-    {file = "icontract-2.7.0.tar.gz", hash = "sha256:5f545e6e0c4982b7b39a7cb89921ac1da2dfbd50c3e0b213b96c718f45962af2"},
+    {file = "icontract-2.7.1-py3-none-any.whl", hash = "sha256:aac4073aebb117f16dcb73b8496209a247fc6b153f203a0648d1065ff8bb81af"},
+    {file = "icontract-2.7.1.tar.gz", hash = "sha256:2e8196754743bd1a3659d66da2ddf1dc0950d01e535c2933bd997b02c6412a03"},
 ]
 
 [package.dependencies]
@@ -785,4 +785,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.3)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9b7c0db274905f02f7770ac8a855ab67c2b3b1b4bc50bd0ff8125ab4a2878204"
+content-hash = "ac7e2d18a1f8879d5f14ec353ad820b7de40c94597c9bfd0432f25e643fc0300"

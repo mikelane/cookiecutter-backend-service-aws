@@ -73,14 +73,14 @@ typeguard = ">=2.13.3,<5.0.0"
 
 [[package]]
 name = "aws-cdk-cloud-assembly-schema"
-version = "44.1.0"
+version = "44.5.0"
 description = "Schema for the protocol between CDK framework and CDK CLI"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_cloud_assembly_schema-44.1.0-py3-none-any.whl", hash = "sha256:1fa97d9c64ce9108add436547ad20955295d59a616cec0b0f11d6b1d1eb08ed7"},
-    {file = "aws_cdk_cloud_assembly_schema-44.1.0.tar.gz", hash = "sha256:03dccc3d2f39ea79ab4a95dda08e1559596a2a3b9bf40ae650877b36126d1428"},
+    {file = "aws_cdk_cloud_assembly_schema-44.5.0-py3-none-any.whl", hash = "sha256:f7cfcfe021ad3ad05746a48f18994c16535fb4d0d21954fa869c939e896e56c5"},
+    {file = "aws_cdk_cloud_assembly_schema-44.5.0.tar.gz", hash = "sha256:5fb674921ae8098f5ccb03755f248f8ca03f239582a80fd14edc2ecb87010aaf"},
 ]
 
 [package.dependencies]
@@ -90,20 +90,20 @@ typeguard = ">=2.13.3,<4.3.0"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.200.2"
+version = "2.201.0"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_lib-2.200.2-py3-none-any.whl", hash = "sha256:aa39924bacda2a1fad0222176075c9a646cc5b4a37ab0d3cac52a39afa0b40fb"},
-    {file = "aws_cdk_lib-2.200.2.tar.gz", hash = "sha256:e28930e115daa96bac2c088033860a4ad05235b5495934b0175f4072ee15a965"},
+    {file = "aws_cdk_lib-2.201.0-py3-none-any.whl", hash = "sha256:0856569d0ecb81414d08d987950261957d331486cd9daa7a115f2cf38b12c64d"},
+    {file = "aws_cdk_lib-2.201.0.tar.gz", hash = "sha256:4dfdb59c5ff0341c48b1c91755e729a61d6508d015d2b9d545a825b9194eb1d2"},
 ]
 
 [package.dependencies]
 "aws-cdk.asset-awscli-v1" = "2.2.237"
 "aws-cdk.asset-node-proxy-agent-v6" = ">=2.1.0,<3.0.0"
-"aws-cdk.cloud-assembly-schema" = ">=44.1.0,<45.0.0"
+"aws-cdk.cloud-assembly-schema" = ">=44.2.0,<45.0.0"
 constructs = ">=10.0.0,<11.0.0"
 jsii = ">=1.112.0,<2.0.0"
 publication = ">=0.0.3"
@@ -848,4 +848,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "b5d6b8612effb805c44dae7593ed8ee885f85d4c63f4b3cef67e0c938939e71d"
+content-hash = "7285758612023e2a86fcf618a42a1271feee3348e193be2f2164e9c4a7104241"

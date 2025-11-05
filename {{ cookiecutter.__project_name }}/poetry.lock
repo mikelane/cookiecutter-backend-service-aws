@@ -90,14 +90,14 @@ typeguard = ">=2.13.3,<4.3.0"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.221.1"
+version = "2.222.0"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_lib-2.221.1-py3-none-any.whl", hash = "sha256:adfa5634cd9ab7b1c36ea07338b5cb7ac35d89e1dce09a4d92759e3c377e46a3"},
-    {file = "aws_cdk_lib-2.221.1.tar.gz", hash = "sha256:0ad4c31eb77848b4a8bd1644a3cc4c2f4bad627e2a24bc5f6bace0747379fa46"},
+    {file = "aws_cdk_lib-2.222.0-py3-none-any.whl", hash = "sha256:f6df71cd13d677cfcd6ed397d7cf838fdfebe85a020c10b72768f6bfb296aeb2"},
+    {file = "aws_cdk_lib-2.222.0.tar.gz", hash = "sha256:29ac25f0e0aba377beff611ee1d4a087e6fce48476c1409ca7c6e6682ffbeab3"},
 ]
 
 [package.dependencies]
@@ -105,7 +105,7 @@ files = [
 "aws-cdk.asset-node-proxy-agent-v6" = ">=2.1.0,<3.0.0"
 "aws-cdk.cloud-assembly-schema" = ">=48.6.0,<49.0.0"
 constructs = ">=10.0.0,<11.0.0"
-jsii = ">=1.116.0,<2.0.0"
+jsii = ">=1.118.0,<2.0.0"
 publication = ">=0.0.3"
 typeguard = ">=2.13.3,<4.3.0"
 
@@ -898,4 +898,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "6eb1fa0b831abe310342dfe310eeb912fe8cf21fcaf9d2089f146f8b121a8cb8"
+content-hash = "274538d659c3a56aef33f0a7e00d2b7a6259b0707c4e7bfcc6b8e46aa2988143"

@@ -232,20 +232,20 @@ markers = {lint = "platform_system == \"Windows\"", test = "sys_platform == \"wi
 
 [[package]]
 name = "constructs"
-version = "10.4.2"
+version = "10.4.3"
 description = "A programming model for software-defined state"
 optional = false
-python-versions = "~=3.8"
+python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "constructs-10.4.2-py3-none-any.whl", hash = "sha256:1f0f59b004edebfde0f826340698b8c34611f57848139b7954904c61645f13c1"},
-    {file = "constructs-10.4.2.tar.gz", hash = "sha256:ce54724360fffe10bab27d8a081844eb81f5ace7d7c62c84b719c49f164d5307"},
+    {file = "constructs-10.4.3-py3-none-any.whl", hash = "sha256:43bbefa1ac1c044577d0b1a30648fe5b49557b8b95de2648186f6b909febf7f9"},
+    {file = "constructs-10.4.3.tar.gz", hash = "sha256:bfe3657b0acb62af7aa1fda9a7e338ae5cae84ddf8f84f71125a2a3800d52ea0"},
 ]
 
 [package.dependencies]
-jsii = ">=1.102.0,<2.0.0"
+jsii = ">=1.118.0,<2.0.0"
 publication = ">=0.0.3"
-typeguard = ">=2.13.3,<2.14.0"
+typeguard = ">=2.13.3,<4.3.0"
 
 [[package]]
 name = "coverage"
@@ -898,4 +898,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "8e7ab2bf381f20baf5bdb71834fdaa13c55407b3f4df917f367f347fb368cb0c"
+content-hash = "05a17e6add9896e6fb29f0059a0b9a926ed860fac979f98b33d82d9bb2312bcc"

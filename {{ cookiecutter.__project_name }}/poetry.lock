@@ -626,14 +626,14 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pre-commit"
-version = "4.3.0"
+version = "4.4.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 optional = false
-python-versions = ">=3.9"
+python-versions = ">=3.10"
 groups = ["lint"]
 files = [
-    {file = "pre_commit-4.3.0-py2.py3-none-any.whl", hash = "sha256:2b0747ad7e6e967169136edffee14c16e148a778a54e4f967921aa1ebf2308d8"},
-    {file = "pre_commit-4.3.0.tar.gz", hash = "sha256:499fe450cc9d42e9d58e606262795ecb64dd05438943c62b66f6a8673da30b16"},
+    {file = "pre_commit-4.4.0-py2.py3-none-any.whl", hash = "sha256:b35ea52957cbf83dcc5d8ee636cbead8624e3a15fbfa61a370e42158ac8a5813"},
+    {file = "pre_commit-4.4.0.tar.gz", hash = "sha256:f0233ebab440e9f17cabbb558706eb173d19ace965c68cdce2c081042b4fab15"},
 ]
 
 [package.dependencies]
@@ -902,4 +902,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "02103e8f92b90bc12b3b612bb8c1e8e0894858effb4d5a0d6cc374581ba0ece9"
+content-hash = "527caa493a0bad9947a158a3801fa11faf1ed121e4cf70757ca425fa7c92eea4"

@@ -90,14 +90,14 @@ typeguard = ">=2.13.3,<4.3.0"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.223.0"
+version = "2.224.0"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_lib-2.223.0-py3-none-any.whl", hash = "sha256:c6070a9449b2ce48987855ce273e65b9b18a134d98110ac86f23a393e1bf0b84"},
-    {file = "aws_cdk_lib-2.223.0.tar.gz", hash = "sha256:8d2ea3c2754d1022db19f59e0558a9b23b26317a95b1327c502ca8afd94c5830"},
+    {file = "aws_cdk_lib-2.224.0-py3-none-any.whl", hash = "sha256:33831b69ad2c8f2aaf08ba6a80b8fa5f81eaa52b4a086d4b299818676e071be2"},
+    {file = "aws_cdk_lib-2.224.0.tar.gz", hash = "sha256:7a471b9c4213ac0b916edd53e57119b9cdaa3d8e2fb470cd105fddf5576a08ca"},
 ]
 
 [package.dependencies]
@@ -105,7 +105,7 @@ files = [
 "aws-cdk.asset-node-proxy-agent-v6" = ">=2.1.0,<3.0.0"
 "aws-cdk.cloud-assembly-schema" = ">=48.6.0,<49.0.0"
 constructs = ">=10.0.0,<11.0.0"
-jsii = ">=1.118.0,<2.0.0"
+jsii = ">=1.119.0,<2.0.0"
 publication = ">=0.0.3"
 typeguard = ">=2.13.3,<4.3.0"
 
@@ -461,14 +461,14 @@ plugins = ["setuptools"]
 
 [[package]]
 name = "jsii"
-version = "1.118.0"
+version = "1.119.0"
 description = "Python client for jsii runtime"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "jsii-1.118.0-py3-none-any.whl", hash = "sha256:2f772d423ccf107193ba39a7ade7e43e6b5a063cad734009d1b4b0f80c5e7456"},
-    {file = "jsii-1.118.0.tar.gz", hash = "sha256:711131f84a9e968e12b8a09449c734907ca53faa51bf5b85685976dff9faf554"},
+    {file = "jsii-1.119.0-py3-none-any.whl", hash = "sha256:9203200ed5289ecc6198783513cbd7abef53d4f6eac0046181d647fa56eda6ab"},
+    {file = "jsii-1.119.0.tar.gz", hash = "sha256:9f87508908bfa51dd9aac59fdbbeff347ae76377758ea5e5f83f149052211514"},
 ]
 
 [package.dependencies]
@@ -902,4 +902,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "ab5a94c48f1fe47aef9551461cf6eb1361a48ca7d6ccedbad232bb2e707ad44a"
+content-hash = "e3ac7e83318acb2a7e9e9fc668aa014f97ad67d8cab68b188d9db1f30a8189bc"

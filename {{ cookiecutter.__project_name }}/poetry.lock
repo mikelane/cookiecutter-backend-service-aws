@@ -73,41 +73,41 @@ typeguard = ">=2.13.3,<5.0.0"
 
 [[package]]
 name = "aws-cdk-cloud-assembly-schema"
-version = "48.6.0"
+version = "48.20.0"
 description = "Schema for the protocol between CDK framework and CDK CLI"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_cloud_assembly_schema-48.6.0-py3-none-any.whl", hash = "sha256:ee4a3014446bdd68de200dfb4086737f671ccaa7b3a1ec39653720d3e521f835"},
-    {file = "aws_cdk_cloud_assembly_schema-48.6.0.tar.gz", hash = "sha256:716d27b6fdb05afd9981567804d91af5780e2f7f95fd9113e697380a1b69a623"},
+    {file = "aws_cdk_cloud_assembly_schema-48.20.0-py3-none-any.whl", hash = "sha256:f5b6cf661cac8690add9461de13aeae3f3742eec71c066032bd045b08d0b7c3e"},
+    {file = "aws_cdk_cloud_assembly_schema-48.20.0.tar.gz", hash = "sha256:229aa136c26b71b0a82b5a32658eabcd30e344f7e136315fdb6e3de8ef523bfa"},
 ]
 
 [package.dependencies]
-jsii = ">=1.113.0,<2.0.0"
+jsii = ">=1.118.0,<2.0.0"
 publication = ">=0.0.3"
 typeguard = ">=2.13.3,<4.3.0"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.231.0"
+version = "2.232.1"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_lib-2.231.0-py3-none-any.whl", hash = "sha256:44aad6e0c10a0039416c913a3190b1412ae2bc20fd55b9fcaae265a396db64a3"},
-    {file = "aws_cdk_lib-2.231.0.tar.gz", hash = "sha256:8480af5c243c52e942205fa3af3fa65252889270dc3bd5162e2ff24d581b1d54"},
+    {file = "aws_cdk_lib-2.232.1-py3-none-any.whl", hash = "sha256:d664518ee10391a867c1e5b6633085b7a02acea4bf738ed250bb77e1a0936a69"},
+    {file = "aws_cdk_lib-2.232.1.tar.gz", hash = "sha256:08bd5e4966b07fb1de47012a3007457859a53b32d4b0c5437a5c64701bae2bcb"},
 ]
 
 [package.dependencies]
 "aws-cdk.asset-awscli-v1" = "2.2.242"
 "aws-cdk.asset-node-proxy-agent-v6" = ">=2.1.0,<3.0.0"
-"aws-cdk.cloud-assembly-schema" = ">=48.6.0,<49.0.0"
+"aws-cdk.cloud-assembly-schema" = ">=48.20.0,<49.0.0"
 constructs = ">=10.0.0,<11.0.0"
-jsii = ">=1.119.0,<2.0.0"
+jsii = ">=1.120.0,<2.0.0"
 publication = ">=0.0.3"
-typeguard = ">=2.13.3,<4.3.0"
+typeguard = "2.13.3"
 
 [[package]]
 name = "beartype"
@@ -461,14 +461,14 @@ plugins = ["setuptools"]
 
 [[package]]
 name = "jsii"
-version = "1.119.0"
+version = "1.120.0"
 description = "Python client for jsii runtime"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "jsii-1.119.0-py3-none-any.whl", hash = "sha256:9203200ed5289ecc6198783513cbd7abef53d4f6eac0046181d647fa56eda6ab"},
-    {file = "jsii-1.119.0.tar.gz", hash = "sha256:9f87508908bfa51dd9aac59fdbbeff347ae76377758ea5e5f83f149052211514"},
+    {file = "jsii-1.120.0-py3-none-any.whl", hash = "sha256:5ba9b8a5420ce66f58b1a71ca57a4566c67f04b469140be335bd74abb91d5e0b"},
+    {file = "jsii-1.120.0.tar.gz", hash = "sha256:888855ddb7d124795e0c92c43d858d7d27f5372996210ec447a2a9af3a6c4315"},
 ]
 
 [package.dependencies]
@@ -477,7 +477,7 @@ cattrs = ">=1.8,<25.4"
 importlib_resources = ">=5.2.0"
 publication = ">=0.0.3"
 python-dateutil = "*"
-typeguard = ">=2.13.3,<4.5.0"
+typeguard = "2.13.3"
 typing_extensions = ">=3.8,<5.0"
 
 [[package]]
@@ -989,4 +989,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "bb11dfb772cbecfe2cd52b60d0ceafe5c50703635ea61cb64e50d0017df0c50e"
+content-hash = "c7e29da8d0ec6207b6c517ad0a72327e8ef9e1ed22e2ac5fc590b804bac9bb7f"

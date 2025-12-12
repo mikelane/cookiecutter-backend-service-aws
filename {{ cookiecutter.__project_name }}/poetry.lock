@@ -237,20 +237,20 @@ markers = {lint = "platform_system == \"Windows\"", test = "sys_platform == \"wi
 
 [[package]]
 name = "constructs"
-version = "10.4.3"
+version = "10.4.4"
 description = "A programming model for software-defined state"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "constructs-10.4.3-py3-none-any.whl", hash = "sha256:43bbefa1ac1c044577d0b1a30648fe5b49557b8b95de2648186f6b909febf7f9"},
-    {file = "constructs-10.4.3.tar.gz", hash = "sha256:bfe3657b0acb62af7aa1fda9a7e338ae5cae84ddf8f84f71125a2a3800d52ea0"},
+    {file = "constructs-10.4.4-py3-none-any.whl", hash = "sha256:7c160b149aa16360531c55a55eb1aaf973fa1949f35477c6bd4f3d6171d279e5"},
+    {file = "constructs-10.4.4.tar.gz", hash = "sha256:50e9fa7bddbb09b5fc897b318f6316acccf2392850bbf45abc15438027528890"},
 ]
 
 [package.dependencies]
-jsii = ">=1.118.0,<2.0.0"
+jsii = ">=1.121.0,<2.0.0"
 publication = ">=0.0.3"
-typeguard = ">=2.13.3,<4.3.0"
+typeguard = "2.13.3"
 
 [[package]]
 name = "coverage"
@@ -462,14 +462,14 @@ plugins = ["setuptools"]
 
 [[package]]
 name = "jsii"
-version = "1.120.0"
+version = "1.121.0"
 description = "Python client for jsii runtime"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "jsii-1.120.0-py3-none-any.whl", hash = "sha256:5ba9b8a5420ce66f58b1a71ca57a4566c67f04b469140be335bd74abb91d5e0b"},
-    {file = "jsii-1.120.0.tar.gz", hash = "sha256:888855ddb7d124795e0c92c43d858d7d27f5372996210ec447a2a9af3a6c4315"},
+    {file = "jsii-1.121.0-py3-none-any.whl", hash = "sha256:e7e10f020cfce01951956750fea50a863955e21aae202ee7f129b873f9d4988b"},
+    {file = "jsii-1.121.0.tar.gz", hash = "sha256:6c003ae10916bedce0cdf4cf86389435265ee151581e57429d0dd8aecb495be1"},
 ]
 
 [package.dependencies]
@@ -990,4 +990,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "b7ca8256b9bd895da43e3ea7d69340f0e5b5db9a8213ff26fcd91eaf567d9b74"
+content-hash = "46b0233c42d1b29c6cce26fdb0b8623abf4b5abb207ba335b3408bb3b7d94f0e"

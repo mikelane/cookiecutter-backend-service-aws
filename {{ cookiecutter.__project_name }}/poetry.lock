@@ -90,14 +90,14 @@ typeguard = ">=2.13.3,<4.3.0"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.232.1"
+version = "2.232.2"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_lib-2.232.1-py3-none-any.whl", hash = "sha256:d664518ee10391a867c1e5b6633085b7a02acea4bf738ed250bb77e1a0936a69"},
-    {file = "aws_cdk_lib-2.232.1.tar.gz", hash = "sha256:08bd5e4966b07fb1de47012a3007457859a53b32d4b0c5437a5c64701bae2bcb"},
+    {file = "aws_cdk_lib-2.232.2-py3-none-any.whl", hash = "sha256:d1b3a5dbe518fbcbe3a9a06960396d8debdef9472c049fbf42adb3f01d613825"},
+    {file = "aws_cdk_lib-2.232.2.tar.gz", hash = "sha256:329fd448ba3cc9a83bcd83eee372ed13b5efdd3a5b28a4e6dc513c43d9a746f7"},
 ]
 
 [package.dependencies]
@@ -991,4 +991,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "3c6c985c685d7f4ebdc737291a63b329a5065cd4c42d0f83551e0c13f1a51e28"
+content-hash = "91962ff5e84e37f167df93bf6df9a8cd92dd9bb038f9baf3fe45e291a5985e1c"

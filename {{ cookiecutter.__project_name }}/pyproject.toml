@@ -27,7 +27,7 @@ ruff = "^0.14.13"
 
 
 [tool.poetry.group.infrastructure.dependencies]
-aws-cdk-lib = "^2.235.0"
+aws-cdk-lib = "^2.235.1"
 constructs = "^10.4.5"
 
 [tool.pytest.ini_options]

@@ -90,14 +90,14 @@ typeguard = "2.13.3"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.245.0"
+version = "2.246.0"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_lib-2.245.0-py3-none-any.whl", hash = "sha256:7def771a31bddf3987f4f0f99404ed018c31415d12d1df4db204cb54436c02ae"},
-    {file = "aws_cdk_lib-2.245.0.tar.gz", hash = "sha256:218590d407ff868e5bc6dfb5d2ab40cdc2fae5db6c495040c4e09aa2c07fff45"},
+    {file = "aws_cdk_lib-2.246.0-py3-none-any.whl", hash = "sha256:90c9ce4e7f0ae476445aa9bfd90ac60ac9ef48c173b4b8abcd58cbfb80f990e1"},
+    {file = "aws_cdk_lib-2.246.0.tar.gz", hash = "sha256:6dc473fce44e1a0fd9ee0dbb9e53f0917bfbfb4823e151c6971bd49b970466d1"},
 ]
 
 [package.dependencies]
@@ -750,7 +750,7 @@ version = "2.20.0"
 description = "Pygments is a syntax highlighting package written in Python."
 optional = false
 python-versions = ">=3.9"
-groups = ["dev", "test"]
+groups = ["test"]
 files = [
     {file = "pygments-2.20.0-py3-none-any.whl", hash = "sha256:81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176"},
     {file = "pygments-2.20.0.tar.gz", hash = "sha256:6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"},
@@ -1030,4 +1030,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "5ba5db3a3741d3c940cd9b40cbaba0dca83d9d571e5931e938d1f67391588bde"
+content-hash = "a03147efa7b0677f344cc78d3fd9cf383c07cb0527f70d61f4e337359436cb6c"

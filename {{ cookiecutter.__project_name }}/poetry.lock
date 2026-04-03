@@ -39,18 +39,18 @@ tests-no-zope = ["cloudpickle ; platform_python_implementation == \"CPython\"", 
 
 [[package]]
 name = "aws-cdk-asset-awscli-v1"
-version = "2.2.263"
+version = "2.2.273"
 description = "A library that contains the AWS CLI for use in Lambda Layers"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_asset_awscli_v1-2.2.263-py3-none-any.whl", hash = "sha256:185150757d4216ea982d7b35596de5b3d767776be00cd78cacce02eaa08f8851"},
-    {file = "aws_cdk_asset_awscli_v1-2.2.263.tar.gz", hash = "sha256:657605260ace055fac4ae30a6fb84a80504a6e24ce0b1d278913d4db4bafa266"},
+    {file = "aws_cdk_asset_awscli_v1-2.2.273-py3-none-any.whl", hash = "sha256:1a0994afa7b48f63b580603be64c7a99d19ed6777bdf81d3c2435d8b43cf0d71"},
+    {file = "aws_cdk_asset_awscli_v1-2.2.273.tar.gz", hash = "sha256:6580dad3416e53712db434f81add6fb4a314e1a80f9c57cc42606df1f64c8e0f"},
 ]
 
 [package.dependencies]
-jsii = ">=1.125.0,<2.0.0"
+jsii = ">=1.127.0,<2.0.0"
 publication = ">=0.0.3"
 typeguard = "2.13.3"
 
@@ -90,18 +90,18 @@ typeguard = "2.13.3"
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.245.0"
+version = "2.248.0"
 description = "Version 2 of the AWS Cloud Development Kit library"
 optional = false
 python-versions = "~=3.9"
 groups = ["infrastructure"]
 files = [
-    {file = "aws_cdk_lib-2.245.0-py3-none-any.whl", hash = "sha256:7def771a31bddf3987f4f0f99404ed018c31415d12d1df4db204cb54436c02ae"},
-    {file = "aws_cdk_lib-2.245.0.tar.gz", hash = "sha256:218590d407ff868e5bc6dfb5d2ab40cdc2fae5db6c495040c4e09aa2c07fff45"},
+    {file = "aws_cdk_lib-2.248.0-py3-none-any.whl", hash = "sha256:e89db288365371e6b42aaae8b45ad2064615dfbe87e95741a2f2bb7ec1f33dad"},
+    {file = "aws_cdk_lib-2.248.0.tar.gz", hash = "sha256:a00c73bfa6865ef62d700d6f97dd4124979ccfe69dc1ef70f2526aa49c52bbc8"},
 ]
 
 [package.dependencies]
-"aws-cdk.asset-awscli-v1" = "2.2.263"
+"aws-cdk.asset-awscli-v1" = "2.2.273"
 "aws-cdk.asset-node-proxy-agent-v6" = ">=2.1.1,<3.0.0"
 "aws-cdk.cloud-assembly-schema" = ">=53.0.0,<54.0.0"
 constructs = ">=10.5.0,<11.0.0"
@@ -1051,4 +1051,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "7a76221c67cc4d11beb17b7c91a285fd8f1f866f7f37fd2bb0c55fc5ad535237"
+content-hash = "87ab6f0fb94b63b1eff81412f61f4eb1323d1b10d5c734b504170926cd6bc54d"
